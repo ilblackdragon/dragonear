@@ -4,6 +4,11 @@
 
 This the game of Dragon controllers who want to summon the unlimited power of the magical creatures and win in the epic battles.
 
+## Social
+
+- Telegram: https://t.me/imdragonear
+- Twitter: https://twitter.com/imdragonear
+
 ## Logic
 
 `Character` - the character user is playing with.
