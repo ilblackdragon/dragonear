@@ -27,14 +27,13 @@ Skills going to be hard to balance initially, so DAO controlling the game can vo
 
 `Cluster` - location where you are on the map. Each cluster defines preference to one of 4 powers. Cluster has upper lvl limit for dragons. If you dragon overgrew it's level, you need to leave the cluster. Each cluster maintains top + there is a global top players by wins/lvls.
 
-- `create_character()` // anyone can call, creates the character in the game.
-- `create_dragon(account_id) -> u64` // owner method, allows to create new dragon for given account. Returns `token_id` of Dragon.
-- `select_dragon(dragon_id: u64)` // select given dragon as main one. you can only do it once a day.
-- `move_cluster(cluster_id: u64)` // fly character from one cluster to another one. different clusters have different properties and will in result different dragons will have behave differently. Plus clusters have limitations for levels to reduce PvP with overpowered. There are feww
-- `start_battle()`
-- `commit_battle(hash)`
-- `reveal_battle(action_sequence)`
-- `evolve(skill_ids)`
-- `add_skill()`
-- `disable_skill()`
-- `replace_skill(skill_id, new_skill_id)` -- replaces existing disabled skill with new skill
+- `account_create()` // anyone can call, creates the character in the game.
+
+- `dragon_create(account_id) -> u64` // owner method, allows to create new dragon for given account. Returns `token_id` of Dragon.
+- `dragon_select(dragon_id: u64)` // select given dragon as main one. you can only do it once a day.
+
+- `cluster_select(cluster_id: u64)` // fly character from one cluster to another one. different clusters have different properties and will in result different dragons will have behave differently. Plus clusters have limitations for levels to reduce PvP with overpowered. There are feww
+
+- `battle_start()`
+- `battle_commit_actions(hash)`
+- `battle_reveal_actions(action_sequence)`
