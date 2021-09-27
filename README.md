@@ -23,7 +23,7 @@ This the game of Dragon controllers who want to summon the unlimited power of th
 
 `Skill` - there are set of skills that you can leverage in the battle. Each skill has preference to the power. Skill either defensive or attack. Skill has recharge time (number of steps between using them).
 
-Skills going to be hard to balance initially, so DAO controlling the game can vote to add and disable skills. If skill is already used by some dragons, it going get disabled in some period of time - user can choose same level skill instead during this period of time.
+Skills going to be hard to balance initially, so DAO controlling the game can vote to add and disable skills. If skill is already used by some dragons, it's going to get disabled in some period of time - the user can choose a different skill of the same level during this period of time.
 
 `Cluster` - location where you are on the map. Each cluster defines preference to one of 4 powers. Cluster has upper lvl limit for dragons. If you dragon overgrew it's level, you need to leave the cluster. Each cluster maintains top + there is a global top players by wins/lvls.
 
